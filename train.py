@@ -9,6 +9,11 @@
 # For inquiries contact  george.drettakis@inria.fr
 #
 
+####################
+# To parse outputs.log:
+# - grep -RniE "PSNR|SSIM|LPIPS|size|MB|bitstream|bits|DecTime" outputs/nerf_synthetic/ficus/0.001/outputs.log
+####################
+
 import os
 import numpy as np
 
